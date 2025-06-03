@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": 1,
+    "name": "Classic Leather Wallet",
+    "category": "wallets",
+    "price": 2999,
+    "originalPrice": 3499,
+    "image": "https://godbolegear.com/cdn/shop/files/TeruelMonogm.jpg?v=1694168685&width=1946",
+    "description": "Premium genuine leather wallet with multiple card slots and coin compartment",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Italian Leather Handbag",
+    "category": "handbags",
+    "price": 8999,
+    "originalPrice": 10999,
+    "image": "https://i.pinimg.com/736x/a5/83/2c/a5832c8ca73a96c473729634a3342b61.jpg",
+    "description": "Elegant Italian leather handbag perfect for any occasion",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Formal Oxford Shoes",
+    "category": "shoes",
+    "price": 5999,
+    "originalPrice": 7499,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDu6anocMhthUnUpYFKRMH4hV0sA34zNO8g&s",
+    "description": "Handcrafted leather oxford shoes for the modern gentleman",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Traditional Rakhi Set",
+    "category": "rakhi",
+    "price": 899,
+    "originalPrice": 1299,
+    "image": "https://floweronwheels.com/cdn/shop/files/sneh-meenakari-rakhi-set-of-3_1.jpg?v=1692877668",
+    "description": "Beautiful handcrafted rakhi set with premium packaging",
+    "featured": true,
+    "inStock": true,
+    "isRakhiSpecial": true
+  },
+  {
+    "id": 5,
+    "name": "Leather Document Holder",
+    "category": "accessories",
+    "price": 1999,
+    "originalPrice": 2499,
+    "image": "https://m.media-amazon.com/images/I/81Tw2ZU-WcL.jpg",
+    "description": "Professional leather document holder for business use",
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Designer Heel Sandals",
+    "category": "shoes",
+    "price": 4999,
+    "originalPrice": 6499,
+    "image": "https://images.meesho.com/images/products/224752556/mi2mk_512.webp",
+    "description": "Elegant designer heel sandals for special occasions",
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Premium Leather Belt",
+    "category": "accessories",
+    "price": 1599,
+    "originalPrice": 1999,
+    "image": "https://www.leathertalks.com/cdn/shop/products/IMG_3456_6b24d931-462e-472a-99d5-d63b295e9e1b.jpg?v=1664431832",
+    "description": "Genuine leather belt with classic buckle design",
+    "featured": false,
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Golden Rakhi Collection",
+    "category": "rakhi",
+    "price": 1499,
+    "originalPrice": 1999,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_vjtal3wNziF_KNR_WEunMmG3a-BlR985UA&s",
+    "description": "Luxury golden rakhi collection with traditional motifs",
+    "featured": true,
+    "inStock": true,
+    "isRakhiSpecial": true
+  }
+]
