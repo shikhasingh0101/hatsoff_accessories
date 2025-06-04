@@ -1,13 +1,13 @@
 
-import React from 'react';
 
 const Craftsmanship = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative h-64 md:h-80 bg-black text-white">
+      <div className="relative h-screen bg-black text-white">
+
         <img
-          src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1200&h=400&fit=crop"
+          src="https://images.pexels.com/photos/4452519/pexels-photo-4452519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Craftsmanship"
           className="w-full h-full object-cover opacity-60"
         />

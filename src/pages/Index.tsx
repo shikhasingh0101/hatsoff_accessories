@@ -20,19 +20,19 @@ const Index = () => {
 
   const heroSlides = [
     {
-      image: "https://crm.morettimilano.com/public/uploads/highLightImg2-1728946409.jpg",
+      image: "https://i.pinimg.com/736x/00/c1/78/00c1788154696c0d6ec7cf81a59078e4.jpg",
       title: "Premium Italian Leather",
       subtitle: "Crafted with Excellence",
       description: "Discover our exclusive collection of handcrafted leather accessories"
     },
     {
-      image: "https://images.pexels.com/photos/16823590/pexels-photo-16823590/free-photo-of-elegant-expensive-shoes-wristwatch-and-perfume.jpeg",
+      image: "https://i.pinimg.com/736x/53/7d/82/537d821cd3ce558ecc501435157ea9e5.jpg",
       title: "Luxury Footwear",
       subtitle: "Step into Elegance",
       description: "Premium shoes designed for the modern professional"
     },
     {
-      image: "https://i.pinimg.com/736x/af/cc/41/afcc4104e861ffb124978e20c68958b4.jpg",
+      image: "https://i.pinimg.com/736x/4b/f5/fe/4bf5fec88d1e7f682f0c8b2586a75fa9.jpg",
       title: "Rakhi Special Collection",
       subtitle: "Traditional Craftsmanship",
       description: "Celebrate with our handcrafted rakhi collection"
@@ -49,7 +49,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-96 md:h-[500px] overflow-hidden">
+      <section className="relative h-screen overflow-hidden">
         {heroSlides.map((slide, index) => (
           <div
             key={index}
@@ -60,7 +60,7 @@ const Index = () => {
             <img
               src={slide.image}
               alt={slide.title}
-              className="w-full h-full object-cover"
+               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
               <div className="text-center text-white max-w-4xl px-4">
@@ -94,7 +94,7 @@ const Index = () => {
       </section>
 
       {/* Rakhi Countdown Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Rakhi Festival Special</h2>

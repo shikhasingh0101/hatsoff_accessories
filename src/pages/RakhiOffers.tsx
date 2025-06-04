@@ -1,8 +1,8 @@
 
-import React, { useEffect } from 'react';
-import { useAppContext } from '../context/AppContext';
-import ProductCard from '../components/ProductCard';
+import { useEffect } from 'react';
 import CountdownTimer from '../components/CountdownTimer';
+import ProductCard from '../components/ProductCard';
+import { useAppContext } from '../context/AppContext';
 import productsData from '../data/products.json';
 
 const RakhiOffers = () => {
@@ -18,9 +18,9 @@ const RakhiOffers = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative h-64 md:h-80 bg-gradient-to-r from-red-800 to-red-600 text-white">
+      <div className="relative h-85 md:h-75 bg-gradient-to-r from-red-800 to-red-600 text-white">
         <img
-          src="https://images.unsplash.com/photo-1593113616828-6f22bce8abc9?w=1200&h=400&fit=crop"
+          src="https://images.pexels.com/photos/7686386/pexels-photo-7686386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Rakhi Festival"
           className="w-full h-full object-cover opacity-60"
         />

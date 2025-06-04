@@ -75,12 +75,14 @@ const CustomizeBags = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative h-64 md:h-80 bg-black text-white">
-        <img
-          src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1200&h=400&fit=crop"
-          alt="Custom Italian Leather Bags"
-          className="w-full h-full object-cover opacity-60"
-        />
+     <div className="relative h-[600px] md:h-[750px] bg-black text-white">
+  <img
+    src="https://i.pinimg.com/736x/6a/f3/5d/6af35df537e571f23678b8cd92f5378b.jpg"
+    alt="Custom Italian Leather Bags"
+    className="w-full h-full object-contain opacity-60"
+  />
+
+
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Custom Italian Leather Bags</h1>
